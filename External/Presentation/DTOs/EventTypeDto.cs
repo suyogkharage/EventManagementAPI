@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Entities
+namespace Presentation.DTOs
 {
-    public enum EventType
+    public enum EventTypeDto
     {
         WithFixedNumberOfAttendees = 1,
         WithExpirationForInvitation = 2

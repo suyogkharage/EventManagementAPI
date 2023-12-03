@@ -18,5 +18,5 @@ namespace Application.Events.Commands
         string? Location,
         int? MaximumNumberOfAttendees,
         int? InvitationsValidBeforeInHours
-        ) : IRequest;
+        ) : IRequest<bool>;
 }

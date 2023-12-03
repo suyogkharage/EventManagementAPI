@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public enum EventType
+    public enum InvitationStatus
     {
-        WithFixedNumberOfAttendees = 1,
-        WithExpirationForInvitation = 2
+        Pending = 0,
+        Accepted = 1,
+        Rejected = 2,
+        Expired = 4
     }
 }
